@@ -1,0 +1,81 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    background-image: url('../images/SnowyForest.jpg');
+    background-size: cover;
+    background-position-y: 2%;
+}
+
+#nameLogo {
+    font-family: 'Cinzel', serif !important;
+}
+
+#textBlock {
+    margin-top: 4%;
+    background-color: white;
+    padding: 10px;
+    opacity: 0.8;
+}
+
+#textBlock2 {
+    margin-top: 10%;
+    background-color: white;
+    padding: 10px;
+    opacity: 0.8;
+    font-size: 120%;
+}
+
+#galleryBlock {
+    margin-top: 10%;
+    padding: 10px;
+    opacity: 0.8;
+    margin-bottom: 10%;
+    margin-left: 23%;
+}
+
+#proImage {
+    margin-top: 7%;
+    margin-left: 20px;
+}
+
+#navigate {
+    opacity: 0.9 !important;
+}
+
+#noFearBeer {
+    opacity: 1 !important;
+    float: left;
+    background-color: darkgrey;
+    text-align: center;
+}
+
+#crystalCollector {
+    float: left;
+    margin-left: 10px;
+    background-color: darkgrey;
+    text-align: center;
+}
+
+#NYT {
+    float: left;
+    margin-left: 10px;
+    background-color: darkgrey;
+    text-align: center;
+}
+
+.zoom {
+    transition: .2s;
+    background-color: whitesmoke;
+}
+
+.zoom:hover {
+    transform: scale(1.5);
+    opacity: 1 !important;
+}
+
+.desc {
+    font-family: 'Cinzel', serif !important;
+}
